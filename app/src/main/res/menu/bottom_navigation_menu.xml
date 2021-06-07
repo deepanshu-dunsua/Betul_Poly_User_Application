@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--bottom navigation design code  here..-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:title="@string/ic_home_txt"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:id="@+id/ic_news"
+        android:title="@string/ic_news_txt"
+        android:icon="@drawable/ic_baseline_newsfeed_24"
+        />
+    <item
+        android:id="@+id/ic_faculity"
+        android:title="@string/ic_faculity_txt"
+        android:icon="@drawable/ic_baseline_faculity_24"
+        />
+    <item
+        android:id="@+id/ic_gallery"
+        android:title="@string/ic_gallery_txt"
+        android:icon="@drawable/ic_baseline_gallery_24"
+        />
+    <item
+        android:id="@+id/ic_aboutus"
+        android:title="@string/ic_aboutus_txt"
+        android:icon="@drawable/ic_baseline_about_24"
+        />
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="btn_color">#2962FF</color>
+    <color name="btn_color1">#0091EA</color>
+    <color name="colorOnPrimary">#336200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#151515</color>
+    <color name="white2">#07151515</color>
+    <color name="branchColor">#4C96AA</color>
+
+    <color name="textColor">#3f3b3b</color>
+    <color name="titleColor">#1b277c</color>
+    <color name="darkColor">#313131</color>
+    <color name="grey">#828080</color>
+    <color name="grey1">#4f4f4f</color>
+    <color name="grey2">#d6d6d6</color>
+
+
+
+
+</resources>

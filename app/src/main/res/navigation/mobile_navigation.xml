@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.betulpolyuserapplication.ui.home.HomeFragment"
+        android:label="@string/ic_home_txt"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.betulpolyuserapplication.ui.news_feed.NewsFeedFragment"
+        android:label="@string/ic_news_txt"
+        tools:layout="@layout/fragment_news_feed" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_faculity"
+        android:name="com.example.betulpolyuserapplication.ui.faculity.FaculityFragment"
+        android:label="@string/ic_faculity_txt"
+        tools:layout="@layout/fragment_faculity" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.example.betulpolyuserapplication.ui.gallery.GalleryFragment"
+        android:label="@string/ic_gallery_txt"
+        tools:layout="@layout/fragment_gallery" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_aboutus"
+        android:name="com.example.betulpolyuserapplication.ui.about_us.AboutUsFragment"
+        android:label="@string/ic_aboutus_txt"
+        tools:layout="@layout/fragment_about_us" />
+
+
+</navigation>

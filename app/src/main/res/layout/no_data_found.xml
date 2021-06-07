@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noDataFound"
+    app:elevation="16dp"
+    app:cardCornerRadius="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Data Found"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/title_size2"
+        android:paddingVertical="@dimen/text_margin"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_margin="8dp"/>
+
+</androidx.cardview.widget.CardView>
+

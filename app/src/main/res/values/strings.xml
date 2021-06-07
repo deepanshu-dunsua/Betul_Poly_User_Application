@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Betul Poly</string>
+    <string name="bold">sans-serif</string>
+    <string name="light">sans-serif-thin</string>
+
+    <!--    TODO:bottom naviagtion icon txt -->
+    <string name="ic_home_txt">Home</string>
+    <string name="ic_news_txt">News Feed</string>
+    <string name="ic_faculity_txt">Faculty</string>
+    <string name="ic_gallery_txt">Gallery</string>
+    <string name="ic_aboutus_txt">About us</string>
+
+    <!--    TODO:draawer navigation icon txt-->
+    <string name="ic_drawer_video_lec">Video Lectures</string>
+    <string name="ic_drawer_ebook">ebooks</string>
+    <string name="ic_drawer_themes">Covid-19 Info</string>
+    <string name="ic_drawer_website">website</string>
+    <string name="ic_drawer_share">share this app</string>
+    <string name="ic_drawer_rate_us">Rate us</string>
+    <string name="ic_drawer_develper">Developer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <!--    TODO:home fragment text and place holder text-->
+    <string name="gpc_title">The GPB TALE</string>
+    <string name="about_college">Govt. Polytechnic College was established in 1988, under the World Bank Projects of Govt. of India .
+    The Institute is managed by Govt. of M.P. , In the last 31 years , the Institute has successfully scaled new heights of
+    achievements in the field of technical education and has earned the reputation of being one of the top ranking polytechnic
+        in Madhya Pradesh. The Institute is located in the Northern side of the Betul at N.H -69(Nagpur-Itarsi ) highway on a spacious
+    25 acres with green valley of Sonaghati. To work for the development of appropriate technologies for the rural Upliftments.</string>
+
+    <string name="ese"> The campus comprises of - 1) Main Building 2) Boys Hostel (Double storied 72 seats)
+     3) Staff quarters 4) Girls Hostel Double storied . Objectives of the Institute - 1. To offer Diploma courses in conventional
+    disciplines of Engineering. 2. To work for the development of appropriate technologies for the rural Upliftments. 3. To organize
+    socially useful courses.</string>
+    <!--    TODO:update faculity  some placeholde text -->
+
+
+<!--    pricipal sir detail-->
+    <string name="view_txt_principal_sir">Principal sir</string>
+    <string name="view_txt_principal_sir_name">Dr.Arun Singh Bhadoriya</string>
+
+
+<!--department detail -->
+    <string name="department_txt">Departments</string>
+    <string name="view_txt_cse">Computer Science  &amp; Engineering</string>
+    <string name="view_txt_ee">Electrical Engineering</string>
+    <string name="view_txt_et">E&amp;T Engineering  </string>
+    <string name="view_txt_mech">Mechanical Engineering</string>
+
+    <string name="contact_detail">Contact Details</string>
+    <string name="clg_name">Goverment polytechnic college </string>
+    <string name="clg_address">Near N.H -69(Nagpur-Itarsi ) highway Betul Madhya Pradesh  </string>
+    <string name="pincode">Pin code : 460001</string>
+    <string name="email">Gmail : Betulpoly@gmail.com</string>
+    <string name="phone_no">Phone No : 9424479272</string>
+
+    <!--    TODO:about us userapp -->
+    <string name="view_txt_cse_about">Computer Science  &amp; Engineering Branch is starting year 1990 .at present in take sheet in 1st year 60 students a.CSE is best opportunity branch.</string>
+    <string name="view_txt_ee_about">Electrical Engineering  Branch is starting year 1990 .at present in take sheet in 1st year 60 students a.CSE is best opportunity branch.</string>
+    <string name="view_txt_et_about">E &amp;T Engineering (Electronics and TeleCommunication Engineering Branch ) is starting year 1990 .at present in take sheet in 1st year 60 students a.CSE is best opportunity branch.</string>
+    <string name="view_txt_mech_about">MechanicalEngineering Branch is starting year 1990 .at present in take sheet in 1st year 60 students a.CSE is best opportunity branch.</string>
+
+
+    <!--    Todo:rcv name diply gallery -->
+    <string name="convday">Convecation Day</string>
+    <string name="indday">Independence Day</string>
+    <string name="reday">Republic Day</string>
+    <string name="vday">Voting Campine</string>
+    <string name="fday">Fresher and Farwall</string>
+    <string name="gday">Ganesh Utsav</string>
+    <string name="sday">Others</string>
+
+    <!--    Developer activity text or placeeholder text -->
+
+    <string name="contactbtn">Contact Us</string>
+    <string name="ourTeam">Our Team</string>
+    <string name="compname">Programmers   Point</string>
+
+    <!--    caerd l text  Deepanshu -->
+    <string name="dname">Deepanshu Dunsua</string>
+    <string name="dpost">Full Stack Developer</string>
+    <string name="dline">" Programming is about managing complexity: the complexity of the problem,laid upon the complexity of the machine.
+        Because of this complexity, most of our programming projects fail."</string>
+
+    <!--    caerd 2 text  Deepanshu -->
+    <string name="sname">Sudhir Geed</string>
+    <string name="spost">Project Manager</string>
+    <string name="sline">"Get the right people. Then no matter what all else you might do wrong after that,
+     the people will save you. That’s what management is all about."</string>
+
+    <!--    caerd 2 text  Deepanshu -->
+    <string name="ssname">Shubham Barde</string>
+    <string name="sspost">Firebase Manager</string>
+    <string name="ssline">Individual commitment to a group effort-that is what makes a team work,
+     a company work, a society work, a civilization work.”</string>
+
+    <!--    caerd 2 text  Instructor  -->
+    <string name="sirname">Mr Nitesh Namdeo</string>
+    <string name="sirpost">Instructor</string>
+    <string name="sirline"><b>" Good thoughts precede great Deeds. Great deeds Success. Hava a great day ."</b></string>
+
+
+    <string name="misitext">MISSION</string>
+    <string name="mtext">"Individual commitment to a group effort-that is what makes a team work, a company work, a society work,
+        a civilization work.From the begning ,our mission has been to organize the worlds informnation and makenit universaly accessible and useful.
+        Today people around the world turns to Search to find information learn about topics of interest and make important decision.
+        We consider it is previlege to be able to help As Technology continues to evolve our Commitment will always be the same helping
+        everyone find the information they need."</string>
+
+
+    <string name="Address">Address</string>
+    <string name="copytext">Copyrightby@BetulPoly</string>
+
+
+</resources>

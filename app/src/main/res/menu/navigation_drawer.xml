@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--Drawer navigation code design here ..-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_navigation_video_lecture"
+            android:icon="@drawable/ic_baseline_ondemand_video_drawer_24"
+            android:title="@string/ic_drawer_video_lec" />
+        <item
+            android:id="@+id/ic_navigation_ebook"
+            android:icon="@drawable/ic_baseline_add_ebook_drawer_24"
+            android:title="@string/ic_drawer_ebook" />
+        <item
+            android:id="@+id/ic_navigation_theme"
+            android:icon="@drawable/ic_baseline_clean_hands_drawer_24"
+            android:title="@string/ic_drawer_themes" />
+        <item
+            android:id="@+id/ic_navigation_website"
+            android:icon="@drawable/ic_baseline_web_drawer_24"
+            android:title="@string/ic_drawer_website" />
+        <item
+            android:id="@+id/ic_navigation_share"
+            android:icon="@drawable/ic__share_24"
+            android:title="@string/ic_drawer_share" />
+        <item
+            android:id="@+id/ic_rateus"
+            android:icon="@drawable/ic_rateus_24"
+            android:title="@string/ic_drawer_rate_us" />
+
+<item
+            android:id="@+id/ic_developer"
+            android:icon="@drawable/ic_baseline_developer_mode_24"
+            android:title="@string/ic_drawer_develper" />
+
+    </group>
+
+</menu>
