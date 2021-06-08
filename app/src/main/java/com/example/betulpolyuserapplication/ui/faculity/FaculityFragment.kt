@@ -26,6 +26,8 @@ class FaculityFragment : Fragment() {
     private lateinit var eeNoData: LinearLayout
     private lateinit var etNoData: LinearLayout
     private lateinit var mechNoData: LinearLayout
+    private lateinit var principalData: LinearLayout
+
 
     //    lisit create
     private lateinit var list1: ArrayList<TeacherData>
@@ -57,6 +59,7 @@ class FaculityFragment : Fragment() {
         eeNoData = view.findViewById(R.id.eeNoData)
         etNoData = view.findViewById(R.id.etNoData)
         mechNoData = view.findViewById(R.id.mechNoData)
+        principalData = view.findViewById(R.id.principalData)
 
 
 //        firbase refernce
@@ -64,6 +67,8 @@ class FaculityFragment : Fragment() {
 
 
         // recyler view  funcation calling
+
+        loadPrincipalData()
         csDepartment()
         eeDepartment()
         etDepartment()
@@ -71,6 +76,12 @@ class FaculityFragment : Fragment() {
 
         return view
     }
+
+    //load principal data fun
+    private fun loadPrincipalData() {
+        principalData.visibility=View.VISIBLE
+    }
+
 
     //     csDepartment Recyler function
     fun csDepartment() {

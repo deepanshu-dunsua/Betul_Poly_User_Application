@@ -15,8 +15,10 @@ android {
         applicationId "com.example.betulpolyuserapplication"
         minSdkVersion 19
         targetSdkVersion 29
+//        multiDexEnabled true
         versionCode 1
         versionName "1.0"
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -45,7 +47,7 @@ android {
 
 dependencies {
 
-//    recycler view
+    //    recycler view
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     //view pager
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
@@ -53,8 +55,8 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     // navigation
-//    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.4'
-//    implementation 'androidx.navigation:navigation-ui-ktx:2.3.4'
+    //    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.4'
+    //    implementation 'androidx.navigation:navigation-ui-ktx:2.3.4'
     implementation 'android.arch.navigation:navigation-fragment-ktx:1.0.0'
     implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0'
     implementation 'com.google.firebase:firebase-database:20.0.0'
@@ -83,6 +85,8 @@ dependencies {
 
     //pdf viewwer dependency
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+//    compile'com.android.support:multidex:1.0.1'
 
 
 

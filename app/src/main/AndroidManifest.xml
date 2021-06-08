@@ -12,10 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BetulPolyUserApplication">
-        <activity android:name=".ebook.PdfViewerActivity" android:parentActivityName=".ebook.PdfViewerActivity"/>
-        <activity android:name=".ebook.EbookActivity" android:parentActivityName=".MainActivity"/>
-        <activity android:name=".FullyImageViewActivity" android:parentActivityName=".MainActivity" />
-        <activity android:name=".developer.DeveloperActivity" android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ebook.PdfViewerActivity"
+            android:parentActivityName=".ebook.PdfViewerActivity" />
+        <activity
+            android:name=".ebook.EbookActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FullyImageViewActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".developer.DeveloperActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>

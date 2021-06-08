@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:padding="6dp"
+    android:elevation="16dp"
+    app:cardCornerRadius="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.5"
+                android:orientation="vertical"
+                android:paddingLeft="12dp">
+
+                <TextView
+                    android:id="@+id/pName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_txt_principal_sir_name"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    android:fontFamily="@string/bold"
+                    />
+
+                <TextView
+                    android:id="@+id/pPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_txt_principal_sir"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    android:fontFamily="@string/bold"/>
+
+                <TextView
+                    android:id="@+id/pEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/bold"
+                    android:text="@string/email1"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    />
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pimage"
+                android:layout_width="50dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:src="@drawable/principlasir" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

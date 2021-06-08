@@ -79,3 +79,95 @@
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
+
+<!--    &lt;!&ndash; principal sir card design and text  &ndash;&gt;-->
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_marginTop="16dp"-->
+<!--android:gravity="center"-->
+<!--android:text="@string/view_txt_principal_sir"-->
+<!--android:textColor="@color/textColor"-->
+<!--android:textSize="22sp"-->
+<!--android:textStyle="bold" />-->
+
+<!--<View-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="1dp"-->
+<!--android:layout_marginVertical="8dp"-->
+<!--android:background="@color/grey" />-->
+
+<!--<androidx.cardview.widget.CardView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_margin="4dp"-->
+<!--android:layout_marginTop="10dp"-->
+<!--android:layout_marginBottom="10dp"-->
+<!--android:background="@color/white"-->
+<!--android:elevation="16dp"-->
+<!--android:padding="6dp"-->
+<!--app:cardCornerRadius="8dp">-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="2">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:orientation="vertical"-->
+<!--            android:paddingLeft="12dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/principalsirname"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@string/bold"-->
+<!--                android:text="@string/view_txt_principal_sir_name"-->
+<!--                android:textColor="@color/textColor"-->
+<!--                android:textSize="18sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/teacherPost_principal"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@string/bold"-->
+<!--                android:text="@string/view_txt_principal_sir"-->
+<!--                android:textColor="@color/textColor"-->
+<!--                android:textSize="18sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/teacherEmail1_principal"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@string/bold"-->
+<!--                android:text="@string/email"-->
+<!--                android:textColor="@color/textColor"-->
+<!--                android:textSize="16sp" />-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/faculity_item_teacher_imageview_principla"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:src="@drawable/principlasir" />-->
+
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->
+
+<!--</androidx.cardview.widget.CardView>-->

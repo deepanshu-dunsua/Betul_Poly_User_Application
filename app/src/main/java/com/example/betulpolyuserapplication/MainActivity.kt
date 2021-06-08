@@ -150,7 +150,6 @@ class MainActivity : AppCompatActivity() {
                 arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE),
                 REQUEST_RECORD_CODE
             )
-
         }
 
     }
