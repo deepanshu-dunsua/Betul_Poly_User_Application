@@ -39,8 +39,8 @@
     <TextView
         android:id="@+id/textView_develop"
         android:layout_width="171dp"
-        android:layout_height="32dp"
-        android:text="Developed by "
+        android:layout_height="36dp"
+        android:text="Developed by"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="26sp"
